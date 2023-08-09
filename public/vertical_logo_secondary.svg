@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118.6 150.37">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #baf2ff;
+      }
+
+      .cls-3 {
+        fill: #9ccbd6;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-size: 48.19px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <polygon class="cls-1" points="13.02 71.9 6.6 89.55 88.34 89.55 81.89 71.9 13.02 71.9"/>
+      <polygon class="cls-1" points="97.19 89.55 117.27 89.55 84.58 .11 64.49 .11 97.19 89.55"/>
+      <polygon class="cls-1" points="60.79 64.8 40.71 64.8 64.25 .11 84.34 .11 60.79 64.8"/>
+      <polygon class="cls-1" points="23.91 89.55 3.82 89.55 36.88 0 56.97 0 23.91 89.55"/>
+      <polygon class="cls-3" points="84.34 .11 77.27 35.21 74.42 27.37 84.34 .11"/>
+      <polygon class="cls-3" points="36.88 0 22.62 17.66 30.39 17.58 36.88 0"/>
+      <polygon class="cls-3" points="23.91 89.55 30.42 71.9 36.88 71.9 23.91 89.55"/>
+      <text class="cls-2" transform="translate(0 137.55) scale(.98 1)"><tspan class="cls-5" x="0" y="0">L</tspan><tspan x="29.39" y="0">a</tspan><tspan class="cls-4" x="59.13" y="0">b</tspan><tspan x="91.22" y="0">7</tspan></text>
+    </g>
+  </g>
+</svg>
