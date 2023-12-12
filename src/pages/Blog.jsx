@@ -1,7 +1,7 @@
 
 import Navbar from "../components/layouts/Navbar"
 import Footer from "../components/layouts/Footer"
-import BannierBlog from "../components/Blog/BannierBlog"
+import Bannier from "../components/Blog/Bannier"
 import Card from "../components/Blog/Card"
 import MiniCard from "../components/Blog/MiniCard"
 import Box from "../components/Box"
@@ -11,16 +11,11 @@ import Comment from "../components/Comment"
 const Blog = () => {
     return (
         <>
-            <div className="bg-home bg-fixed min-w-screen h-1/3 bg-cover pb-10">
+            <div className="bg-home bg-fixed min-w-screen min-h-[60vh] bg-cover pb-10 ">
                 <Navbar />
-                <div className="flex justify-center pt-20 ">
-                    <div className="  ">
-                        <BannierBlog description={``} title={'Blog Lab7'} />
-                    </div>
-
+                <div className="flex flex-col pt-20  items-center justify-center">
+                        <Bannier description={`Découvrez les dernières actualités et tutoriels technologiques pour inspirer vos projets.`} title={'Blog Lab7'} />
                 </div>
-                {/* <Bannier /> */}
-
             </div>
             <div className="mx-2 lg:mx-24 py-10  grid grid-cols-12 space-x-5">
 
@@ -59,7 +54,7 @@ const Blog = () => {
                 <div className="col-span-12 lg:col-span-4">
                     <div className="shadow  bg-secondary/20 p-10 rounded-md mt-10">
                         <div className="w-14 h-1 mb-5 rounded-sm bg-primary"></div>
-                        <div className="border-b-[1px] pb-3 border-primary text-primary font-thin">
+                        <div className="border-b-[1px] pb-3 border-primary text-primary font-normal">
                             Article recents
                         </div>
                         <MiniCard author={"T.Hairath"} title={"POO avec JAVA"} category={"Programmation"} />
@@ -73,33 +68,33 @@ const Blog = () => {
                     </div>
                     <div className="shadow  bg-secondary/20 p-10 rounded-md mt-10">
                         <div className="w-14 h-1 mb-5 rounded-sm bg-primary"></div>
-                        <div className="border-b-[1px] pb-3 border-primary text-primary font-thin">
+                        <div className="border-b-[1px] pb-3 border-primary text-primary font-normal">
                             Catégories
                         </div>
 
                         <div className="border-b-[1px] pb-2 my-3 cursor-pointer">
                             <div className="flex px-5 line-clamp-1 ">
                                 <span className="font-bold text-md text-primary">17</span>
-                                <div className="font-thin text-md mx-2 ">Reseaux</div>
+                                <div className="font-normal text-md mx-2 ">Reseaux</div>
                             </div>
                         </div>
                         <div className="border-b-[1px] pb-2 my-3 cursor-pointer">
                             <div className="flex px-5 line-clamp-1 ">
                                 <span className="font-bold text-md text-primary">5</span>
-                                <div className="font-thin text-md mx-2 ">Programmations</div>
+                                <div className="font-normal text-md mx-2 ">Programmations</div>
                             </div>
                         </div>
                         <div className="border-b-[1px] pb-2 my-3 cursor-pointer">
                             <div className="flex px-5 line-clamp-1 ">
                                 <span className="font-bold text-md text-primary">9</span>
-                                <div className="font-thin text-md mx-2 ">Anglais</div>
+                                <div className="font-normal text-md mx-2 ">Anglais</div>
                             </div>
                         </div>
 
                     </div>
                     <div className="shadow bg-secondary/20 p-10 rounded-md mt-10">
                         <div className="w-14 h-1 mb-5 rounded-sm bg-primary"></div>
-                        <div className="border-b-[1px] pb-3 border-primary text-primary font-thin">
+                        <div className="border-b-[1px] pb-3 border-primary text-primary font-normal">
                             Tags
                         </div>
 

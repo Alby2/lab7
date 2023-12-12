@@ -1,8 +1,8 @@
 const Bannier = ({ title, description }) => {
     return (
-        <div className="pt-52 max-sm:px-10 md:px-20 text-white ">
-            <span className="text-xl lg:text-[4rem] font-semibold w-fit">{title}</span>
-            <div className="text-xl pt-10 max-lg:text-lg border-t-2 border-orange-500 font-thin w-fit">
+        <div className=" px-10 md:px-20 text-white ">
+            <span className="text-[4rem] font-bold w-fit border-b-4 border-primary-2  py-2">{title}</span>
+            <div className="text-xl pt-10 max-lg:text-lg  font-normal w-fit">
                 {description}
             </div>
             <div className="flex mt-10 items-center">
@@ -18,11 +18,18 @@ const Bannier = ({ title, description }) => {
                 </div>
             </div>
 
-            <div className=" mt-4 px-5 items-center flex max-w-full">
+            <div className=" mt-4 px-5 items-center flex max-w-full flex-wrap space-y-1">
                 <div className=" text-white/60">
                     Étiquettes:
                 </div>
                 <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70">ESP8266</div>
+                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
+                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
+                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
+                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
+                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
+                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
+                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
                 <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70">ESP8266</div>
                 <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70">ESP8266</div>
                  </div>
