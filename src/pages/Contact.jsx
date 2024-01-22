@@ -86,10 +86,10 @@ const Contact = () => {
 
 
             </div> */}
-            <div className="w-full min-h-screen pb-52 relative bg-secondary">
+            <div className="w-full min-h-screen pb-52 relative bg-primary/5">
                 <img src="/plan1.png" alt="" className=" w-full h-[500px] rounded-r-lg z-0" />
                <div className="flex justify-center">
-               <div className=" -mt-[300px] bg-white/30 backdrop-blur-xl col-span-4 rounded-md shadow-xl flex flex-col w-10/12 md:w-1/2  py-28 px-5">
+               <div className=" -mt-[350px] bg-white/30 backdrop-blur-xl col-span-4 rounded-md shadow-xl flex flex-col w-10/12 md:w-1/2  py-28 px-5">
                     <div className="py-1 mt-5   w-fit  border-primary text-primary text-3xl font-bold text-center">
                         CONTACT
                     </div>

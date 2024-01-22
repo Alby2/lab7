@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="z-20 bg-primary  bg-[#13172749] fixed  px-5 md:px-8 w-screen max-h-28 overflow-hidden text-white text-lg ">
+      <nav className="z-20 bg-primary/70  backdrop-blur-md bg-[#13172749] fixed  px-5 md:px-8 w-screen max-h-28 overflow-hidden text-white text-lg ">
         <div className="flex justify-between py-7 px-0 items-center ">
           <div className="col-span-5  font-extrabold text-lg lg:text-xl flex items-center">
             <div className="mr-3 md:hidden" onClick={showOrCloseMenu}>
