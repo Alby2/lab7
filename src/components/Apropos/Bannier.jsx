@@ -1,7 +1,7 @@
 const Bannier = () => {
     return (
-        <div className="lg:mx-20 pt-36 max-sm:px-10 md:px-20 text-white px-14 ">
-            <div className="text-5xl   border-b-4 border-primary-2 font-semibold w-fit py-2 2xl:py-10 pr-5">
+        <div className="lg:mx-10 pt-36  px-14 max-sm:px-10 md:px-20 text-white  ">
+            <div className="text-5xl   border-b-4 border-primary-2 font-semibold w-fit py-2 xl:py-10 pr-5">
                 A propos
             </div>
             

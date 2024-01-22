@@ -27,6 +27,8 @@ const Apropos = () => {
             <div className="lg:mx-24">
                 {/* <img src="/lampe_service.svg" className="-mt-10" />
                 <img src="/lampe_mission.svg" className="-mt-10" /> */}
+                <img src="/lampe_mission.svg" className=" w-full h-28 -mt-10 md:h-36 lg:h-52" />
+
 
                 <Card image={"vision_text.svg"}  textafterimage={true} title="Nos visions" description={`Chez Lab7, nous aspirons à devenir la référence en matière de ressources technologiques, offrant un environnement d' apprentissage novateur et une communauté d' experts passionnés. Nous visons à créer un espace où la créativité et l'innovation florissent, propulsant ainsi notre communauté vers un futur prometteur et durable. Chez Lab7, notre passion pour l'innovation est contagieuse.`} />
 

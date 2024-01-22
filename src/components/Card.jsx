@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Card = () => {
     return (
-        <div className="h-fit pb-0 shadow-2xl rounded-xl z-10 my-10 bg-white relative">
+        <div className="h-fit pb-0 shadow-2xl rounded-xl z-[5] my-10 bg-white relative">
             <div className="h-56 bg-article relative bg-center rounded-xl p-5">
                 <div className="bg-primary w-24 text-center -top-10 absolute rounded-md ">
                     <div className="px-1 py-1">
@@ -22,17 +22,17 @@ const Card = () => {
                 </div>
             </div>
 
-            <div className="flex justify-between items-center  px-5  rounded-b-2xl py-3 shadow-inner ">
+            <div className="flex justify-between items-center bg-secondary/25  px-5  rounded-b-xl py-3 ">
                 <div className="flex items-center">
                     <img src="/layout.png" alt="" className="rounded-full w-10 h-10 mr-2 hover:shadow-xl cursor-pointer" />
                     <div>
-                        <div className="text-sm font-semibold text-primary cursor-pointer">KPONSO Albericq</div>
+                        <div className="text-sm font-light text-black cursor-pointer">LAB 7</div>
                         <div className="text-[0.78rem] font-light">Membres</div>
                     </div>
                 </div>
                 <div className="">
                     <Link to={"/blog"}>
-                        <span className="text-md font-semibold text-primary cursor-pointer hover:border-b-2 hover:border-gray-900">Voir plus</span>
+                        <span className="text-md font-semibold text-primary cursor-pointer hover:border-b-2 hover:border-gray-900 border-b-primary border-b-2">Lire l'artcile</span>
                     </Link>
                 </div>
             </div>

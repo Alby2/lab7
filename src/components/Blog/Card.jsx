@@ -39,7 +39,7 @@ const Card = () => {
                     <div className="flex items-center">
                         <div className="text-sm mr-2">Publié par </div>
 
-                        <div className="text-sm m font-light text-primary cursor-pointer">KPONSO Albericq</div>
+                        <div className="text-sm m font-light text-primary cursor-pointer">LAB 7</div>
 
                     </div>
                     <div className="">

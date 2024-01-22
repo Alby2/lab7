@@ -13,7 +13,7 @@ const Blogs = () => {
                         <Bannier description={`Découvrez les dernières actualités et tutoriels technologiques pour inspirer vos projets.`} title={'Blog Lab7'} />
                     </div>
                     <div className="lg:col-span-5  col-span-12 ">
-                        <img src="/blog/blog (3).svg" className="w-full bg-center bg-cover" alt="" />
+                        <img src="/blog/blog (3).svg" className="w-11/12 bg-center bg-cover" alt="" />
                     </div>
 
                 </div>

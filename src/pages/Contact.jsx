@@ -13,13 +13,13 @@ const Contact = () => {
             <div className="bg-home bg-fixed min-w-screen h-1/3 bg-cover pb-10">
                 <Navbar />
                 <div className="flex justify-center py-[10rem] ">
-                    <span className="text-[8rem] font-extrabold text-white">Contacts</span>
+                    <span className="text-[5rem] md:text-[8rem] font-extrabold text-white">Contacts</span>
 
                 </div>
                 {/* <Bannier /> */}
 
             </div>
-            <div className="  relative h-[100vh]  ">
+            {/* <div className="  relative h-[100vh]  ">
                 <div className=" z-0 w-full h-[60vh] ">
                     <img src="/plan1.png" alt="" className=" w-full h-full rounded-r-lg z-0" />
                 </div>
@@ -85,6 +85,31 @@ const Contact = () => {
 
 
 
+            </div> */}
+            <div className="w-full min-h-screen pb-52 relative bg-secondary">
+                <img src="/plan1.png" alt="" className=" w-full h-[500px] rounded-r-lg z-0" />
+               <div className="flex justify-center">
+               <div className=" -mt-[300px] bg-white/30 backdrop-blur-xl col-span-4 rounded-md shadow-xl flex flex-col w-10/12 md:w-1/2  py-28 px-5">
+                    <div className="py-1 mt-5   w-fit  border-primary text-primary text-3xl font-bold text-center">
+                        CONTACT
+                    </div>
+                    <div className="my-4 mt-5 px-1">
+                        <input type="text" className=" w-full border-b-2 border-primary text-lg py-1 bg-transparent font-thin placeholder:text-md focus:outline-none  " placeholder="Nom & Prénoms" />
+                    </div>
+                    <div className="my-4 px-1">
+                        <input type="text" className=" w-full border-b-2 border-primary text-lg py-1 bg-transparent font-thin placeholder:text-md focus:outline-none  " placeholder="Votre adress mail" />
+                    </div>
+
+                    <div className="my-4 px-1">
+                        <textarea type="text" className=" w-full border-b-2 border-primary text-lg py-1 bg-transparent font-thin placeholder:text-md focus:outline-none " placeholder="Votre message" />
+                    </div>
+                    <div className="flex item-center justify-center">
+
+                        <div className="px-10 py-2 rounded-full cursor-pointer shadow-primary text-white text-2xl mt-3 bg-primary hover:shadow-xl font-thin ">Envoyer</div>
+                    </div>
+
+                </div>
+               </div>
             </div>
             <Footer abonnement={false} />
         </>

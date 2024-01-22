@@ -1,20 +1,36 @@
+import Etiquette from "./Etiquette"
+
 const Bannier = ({ title, description }) => {
+    const etiquettes = Array(8)
     return (
         <div className=" px-10 md:px-20 text-white ">
-            <span className="text-[4rem] font-bold w-fit border-b-4 border-primary-2  py-2">{title}</span>
-            <div className="text-xl pt-10 max-lg:text-lg  font-normal w-fit">
+            <div className="md:text-[4rem] text-[3rem]    border-b-4 border-primary-2 font-semibold w-fit py-2 xl:py-10 pr-5 max-md:mt-10">
+                {title}
+            </div>
+            <div className="2xl:text-3xl text-xl pt-10 max-lg:text-lg font-light w-fit">
                 {description}
             </div>
-            <div className="flex mt-10 items-center">
-                <div className="bg-primary border-2 border-secondary px-8 py-5 font-black text-lg rounded-full cursor-pointer -mr-10 z-10">Recherche</div>
-                <div className="flex bg-white w-fit rounded-3xl">
-                    <input type="text" placeholder="Entrez votre recherche" className="bg-transparent text-sm pl-10 text-gray-900 border-none outline-none" />
-                    <div className="w-[2px] min-h-full my-4 mx-3  bg-gray-400"></div>
-                    <div className="w-10 py-5 pointer-events-auto">
-                        <svg className=" text-slate-400 font-extrabold w-5" viewBox="0 0 20 20" fill="currentColor">
+            <div className="grid grid-cols-12  mt-10 items-center  rounded-l-full">
+                <div className="col-span-4 z-[4] ">
+                    <div className=" bg-primary border-2  border-secondary font-medium py-4 text-center text-md rounded-full cursor-pointer ">Recherche</div>
+                </div>
+                <div className="  col-span-8 py-1 bg-white -ml-4 rounded-r-md grid grid-cols-12 items-center ">
+
+                    <div className=" ml-4 col-span-9">
+                        <input type="text" placeholder="Entrez votre recherche" className=" w-full bg-transparent text-sm  text-gray-900 border-none outline-none" />
+
+                    </div>
+
+                    <div className="ml-1 col-span-1">
+                        <div className="min-h-full my-2 bg-gray-500 w-[2px] py-[15px]">{" "}</div>
+                    </div>
+                    <div className="col-span-2">
+                        <svg className=" text-slate-400 font-extrabold w-6" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                         </svg>
+
                     </div>
+
                 </div>
             </div>
 
@@ -22,20 +38,16 @@ const Bannier = ({ title, description }) => {
                 <div className=" text-white/60">
                     Étiquettes:
                 </div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70 ">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70">ESP8266</div>
-                <div className="bg-white/10 rounded-lg cursor-pointer px-5 py-2 mx-3 text-sm font-thin text-gray-200/70">ESP8266</div>
-                 </div>
+
+                <Etiquette text={"ESP8266"} key={1} />
+                <Etiquette text={"Programmation"} key={2} />
+                <Etiquette text={"User Interface"} key={3} />
+                <Etiquette text={"EPS85"} key={4} />
+            </div>
 
         </div>
     )
 }
+
 
 export default Bannier

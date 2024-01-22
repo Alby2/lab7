@@ -4,10 +4,10 @@ const Bannier = () => {
     return (
         <div className="bg-home bg-fixed min-w-screen min-h-screen bg-cover pb-10">
                 <Navbar />
-                <div className="flex flex-col h-[75vh] pt-52 text-white   justify-center items-center">
+                <div className="flex flex-col h-[75vh] pt-48 text-white   justify-center items-center px-2">
 
                     <div className="border-b-2 border-primary-2">
-                        <span className="2xl:text-[10rem] md:text-[6rem] text-[4rem]  font-semibold w-fit">Bienvenue au</span>
+                        <div className="2xl:text-[10rem] md:text-[6rem] text-[4rem]  text-center  font-semibold w-fit">Bienvenue au</div>
                         <div className=" 2xl:text-[10rem] text-[6rem] font-extrabold  text-center text-primary-2  "> Lab7</div>
                     </div>
                     <div className="text-xl max-lg:text-lg pt-5 font-medium w-fit text-center">Au carrefour des esprits créatifs, naissent les solutions de demain</div>

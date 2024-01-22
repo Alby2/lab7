@@ -8,7 +8,7 @@ const Comment = ({ isAuthor = false,message }) => {
             </div>
             <div className={isAuthor ?" w-full bg-secondary/30 rounded-e-3xl mx-2 cursor-pointer rounded-3xl  px-10 py-5 order-1":" w-full bg-gray-50 rounded-e-3xl mx-2 cursor-pointer rounded-ss-3xl  px-10 py-5 order-2"}>
                 <div className='flex justify-between mb-3 items-center '>
-                    <div className='text-primary font-extrabold'>{isAuthor ? "Moi":"KPONSO Albericq"} </div>
+                    <div className='text-primary font-extrabold'>{isAuthor ? "Moi":"LAB 7"} </div>
                     <span className='text-gray-500 text-sm no-italic '>12 heures</span>
                 </div>
                 <div className=" line-clamp-4 hover:line-clamp-none">

@@ -15,7 +15,7 @@ const Forums = () => {
             <div className="bg-home bg-fixed min-w-screen h-1/3 bg-cover pb-10">
                 <Navbar />
                 <div className="flex justify-center py-[10rem] ">
-                    <span className="text-[8rem] font-extrabold text-white">Forums</span>
+                    <span className="text-[5rem] md:text-[8rem] font-extrabold text-white">Forums</span>
 
                 </div>
                 {/* <Bannier /> */}
@@ -26,7 +26,7 @@ const Forums = () => {
                 <div className="col-span-12 lg:col-span-8 mb-10 ">
                     {/* <Card /> */}
                     <div className="grid grid-cols-12 space-x-4 mb-10 ">
-                        <div className="col-span-3 pr-2 shadow-sm   bg-white ">
+                        <div className=" col-span-6 mt-3  md:col-span-3 pr-2 shadow-sm   bg-white ">
                             <select name="" id="" className="w-full h-full px-4 outline-none focus:border-none " placeholder="All Catégories">
                                 <option value="" selected>All Catégories</option>
                                 <option value="">Categories 1</option>
@@ -37,7 +37,7 @@ const Forums = () => {
                             </select>
                             {/* <input type="text" className="w-full" placeholder="" /> */}
                         </div>
-                        <div className="col-span-3 pr-2   bg-white shadow-sm ">
+                        <div className=" col-span-6 mt-3  md:col-span-3 pr-2   bg-white shadow-sm ">
                             <select name="" id="" className="w-full h-full px-4 outline-none focus:border-none " placeholder="All Catégories">
                                 <option value="" selected>Today</option>
                                 <option value="" >Month</option>
@@ -46,11 +46,11 @@ const Forums = () => {
                             </select>
                             {/* <input type="text" className="w-full" placeholder="" /> */}
                         </div>
-                        <div className="col-span-4 px-2    bg-white shadow-sm ">
+                        <div className=" col-span-6 mt-3  md:col-span-4 px-2    bg-white shadow-sm ">
                             <input type="text" className="w-full h-full outline-none" placeholder="Enter Keyword" />
                             {/* <input type="text" className="w-full" placeholder="" /> */}
                         </div>
-                        <div className="col-span-2 px-3 py-3 shadow-sm  bg-primary text-white rounded-md text-center">
+                        <div className=" col-span-6  mt-3 md:col-span-2 px-3 py-3 shadow-sm  bg-primary text-white rounded-md text-center">
                             Search
                         </div>
 

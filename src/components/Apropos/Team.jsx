@@ -81,7 +81,7 @@ const Team = () => {
 
     return (
         <div className="mb-60 grid grid-cols-12 items-center ">
-            <img src="/lampe_service.svg" className=" w-full col-span-12" />
+            <img src="/lampe_service.svg" className=" w-full h-36 col-span-12" />
             {/* <div className="col-span-1"></div> */}
 
             <div className="lg:col-span-5 col-span-12 col-start-2 mt-16">
