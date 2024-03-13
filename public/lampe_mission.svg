@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1724.731" height="277.54" viewBox="252.78 0 1219.57 277.54">
+  <g id="Groupe_2698" data-name="Groupe 2698" transform="translate(-97.634 -941)">
+  <!-- Missions -->
+    <path id="Tracé_26565" data-name="Tracé 26565" d="M945.741,294.422H129.484C191.317,191.685,310.336,90.7,537.709,90.7S884.1,191.685,945.741,294.422Z" transform="translate(364.422 924.118)" fill="#f9b33f"/>
+    
+    
+   <!-- Eclaire top left -->
+    <path id="Tracé_26564" data-name="Tracé 26564" d="M231.639,231.83A14.574,14.574,0,0,0,250.8,209.867L92.382,71.611,230.215,230.4A15.518,15.518,0,0,0,231.639,231.83Z" transform="translate(258.031 869.389)" fill="#f9d621"/>
+   <!-- Ecalire top right -->
+    <path id="Tracé_26573" data-name="Tracé 26573" d="M368.959,210.97a14.574,14.574,0,1,0,21.959,19.167L529.173,71.713,370.385,209.547A15.975,15.975,0,0,0,368.959,210.97Z" transform="translate(1040.808 869.682)" fill="#f9d621"/>
+     <!-- Effect Missions Services -->
+   
+    <g id="Title-2" data-name="Title" transform="translate(575.05 1159.177)">
+      <text id="FEATURES-2" data-name="FEATURES" transform="translate(350.801 -8)" fill="#fff" font-size="52" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.357em"><tspan x="-179.114" y="0">Missions</tspan></text>
+    </g>
+    
+  </g>
+</svg>
