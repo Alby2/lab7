@@ -14,9 +14,14 @@ const Articles = () => {
       </div>
       {!isLoading ? (
         <div className="grid  max-sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
-          {items.slice(0,3).map((post) => {
+          {items?.slice(0, 3).map((post) => {
             return <Card post={post} />;
-          })}
+          }) ?? (
+            <div className="flex justify-center text-xl items-center text-red-400">
+              {/* <div className="loader mx-2"></div> */}
+              <div>Message d'erreur,Vérifier si le back est connecté</div>
+            </div>
+          )}
         </div>
       ) : (
         <div className="flex justify-center text-xl items-center">
@@ -25,7 +30,7 @@ const Articles = () => {
         </div>
       )}
       <div className="flex justify-center mt-12">
-        <Link to={'/blogs'}>
+        <Link to={"/blogs"}>
           <div className="px-10 py-1 border-2 text-lg font-semibold w-fit cursor-pointer border-black hover:text-white hover:bg-black hover:rounded-full ">
             VOIR PLUS
           </div>

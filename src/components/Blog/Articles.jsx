@@ -20,13 +20,13 @@ const Articles = () => {
       ) : (
         <>
           <div className=" grid grid-cols-12 md:space-x-4 justify-center items-center ">
-            {items.map((post) => {
+            {items?.map((post) => {
               return (
-                <div className="col-span-12 md:col-span-6 lg:col-span-4 2xl:col-span-3">
+                <div key={post.article_id} className="col-span-12 md:col-span-6 lg:col-span-4 2xl:col-span-3">
                   <Card post={post} />
                 </div>
               );
-            })}
+            }) }
           </div>
           <Paginations totals={150} maxItems={30} page={1} />
         </>

@@ -15,6 +15,13 @@ const Card = ({ post }) => {
     "Novembre",
     "Decembre",
   ];
+  const convertStringToHTML = htmlString => {
+    const parser = new DOMParser();
+    const html = parser.parseFromString(htmlString, 'text/html');
+
+
+    return <div>{htmlString}</div>;
+}
   return (
     <div className="h-fit pb-0 shadow-2xl rounded-xl z-[5] my-10 bg-white relative">
       <div className="h-56 bg-article relative bg-center rounded-xl p-5">
@@ -34,7 +41,7 @@ const Card = ({ post }) => {
           Tutoriel | Reseau Informatique
         </span>
         <div className="text-ellipsis text-gray-400  line-clamp-6 text-[0.8rem] font-normal  mt-5">
-          {post.article_contenu}
+          {convertStringToHTML(post.article_contenu)}
         </div>
         
       </div>
