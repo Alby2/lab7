@@ -2,7 +2,7 @@ import Navbar from "../layouts/Navbar"
 
 const Bannier = () => {
     return (
-        <div className="bg-home bg-fixed min-w-screen min-h-screen bg-cover pb-10">
+        <div className="bg-home bg-fixed  bg-center min-w-screen min-h-screen bg-cover pb-10">
                 <Navbar />
                 <div className="flex flex-col h-[75vh] pt-48 text-white   justify-center items-center px-2">
 

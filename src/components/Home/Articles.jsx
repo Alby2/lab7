@@ -17,9 +17,10 @@ const Articles = () => {
           {items?.slice(0, 3).map((post) => {
             return <Card post={post} />;
           }) ?? (
-            <div className="flex justify-center text-xl items-center text-red-400">
-              {/* <div className="loader mx-2"></div> */}
-              <div>Message d'erreur,Vérifier si le back est connecté</div>
+            <div className="flex justify-center text-lg col-span-full items-center font-semibold text-red-400 mb-10">
+              <div className="px-10 py-4 bg-red-100 rounded-lg transition ease-in-out delay-150  duration-300 cursor-pointer hover:scale-110 ">
+                Opps echec, Ressayer un peu plus tard
+              </div>
             </div>
           )}
         </div>

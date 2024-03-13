@@ -9,7 +9,8 @@ module.exports = {
       backgroundImage: {
         'homeold':"url('./images/home2.jpg')",
         "article":"url('./images/banner_8.jpg')",
-        "home":"url('./images/banner_home.svg')"
+        // "home":"url('./images/banner_home.svg')"
+        "home":"url('./images/test5.jpg')",
       },
       colors:{
         primary:{

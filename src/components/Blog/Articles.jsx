@@ -26,7 +26,11 @@ const Articles = () => {
                   <Card post={post} />
                 </div>
               );
-            }) }
+            }) ?? (
+                <div className="flex justify-center text-lg col-span-full items-center font-semibold text-red-400 mb-10">
+                  <div className='px-10 py-4 bg-red-100 rounded-lg transition ease-in-out delay-150  duration-300 cursor-pointer hover:scale-110 '>Opps echec, Ressayer un peu plus tard</div>
+                </div>
+              ) }
           </div>
           <Paginations totals={150} maxItems={30} page={1} />
         </>
