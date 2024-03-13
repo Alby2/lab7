@@ -3,7 +3,7 @@ const Communaute = () => {
     return (
         <div className="md:mx-20 mx-2 my-20">
        
-            <img src="/lampe_mission.svg" className=" w-full h-36 col-span-12 mb-10" />
+            <img src="/lampe_mission.svg" alt="" className=" w-full h-36 col-span-12 mb-10" />
 
             <img src="/layout.png" alt="" className="w-7/12  h-10/11 px-10 mx-auto" />
             <div className="rounded-3xl bg-black/90 text-white font-thin p-10  lg:pt-10 lg:px-20 -mt-6 italic">

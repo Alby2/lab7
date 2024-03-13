@@ -1,15 +1,11 @@
 import { motion } from 'framer-motion'
-import React from 'react'
-import { TfiDashboard, TfiHome } from 'react-icons/tfi'
-import { MdClose, MdHome, MdOutlineContactPage, MdOutlineContactPhone } from 'react-icons/md'
-import { FaHome } from 'react-icons/fa'
-import { FaDashcube, FaHandsBound, FaList, FaMessage, FaPhone } from 'react-icons/fa6'
+import { MdClose, MdOutlineContactPhone } from 'react-icons/md'
 import { HiOutlineUserGroup } from "react-icons/hi2";
 import { GrBlog } from "react-icons/gr";
 import { RxHome } from "react-icons/rx";
 
 
-import { CiGrid42, CiHome } from 'react-icons/ci'
+import { CiGrid42 } from 'react-icons/ci'
 import { Link, useLocation } from 'react-router-dom'
 
 const MobileMenu = ({ click }) => {
@@ -31,7 +27,7 @@ const MobileMenu = ({ click }) => {
             <div className="w-10/12 bg-gray-100 min-h-full max-h-full overflow-y-auto">
                 <div className="flex justify-between items-center shadow-lg   bg-white px-5 py-5">
                     <div className="flex items-center">
-                        <img src="/short_logo_primary.svg" className="  h-6" />
+                        <img src="/short_logo_primary.svg" alt="" className="  h-6" />
                         <span className='font-medium text-3xl  text-primary' >LAB7</span>
                     </div>
 

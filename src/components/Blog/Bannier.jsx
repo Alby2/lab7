@@ -1,7 +1,6 @@
 import Etiquette from "./Etiquette"
 
 const Bannier = ({ title, description }) => {
-    const etiquettes = Array(8)
     return (
         <div className=" px-10 md:px-20 text-white ">
             <div className="md:text-[4rem] text-[3rem]    border-b-4 border-primary-2 font-semibold w-fit py-2 xl:py-10 pr-5 max-md:mt-10">

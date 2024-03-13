@@ -1,13 +1,6 @@
 
 import Navbar from "../components/layouts/Navbar"
 import Footer from "../components/layouts/Footer"
-import BannierBlog from "../components/Blog/BannierBlog"
-import Card from "../components/Blog/Card"
-import MiniCard from "../components/Blog/MiniCard"
-import Box from "../components/Box"
-import Paginations from "../components/Paginations"
-import Comment from "../components/Comment"
-
 
 const Forums = () => {
     return (

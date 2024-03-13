@@ -1,10 +1,7 @@
 
 import Footer from "../components/layouts/Footer"
 import Navbar from "../components/layouts/Navbar"
-import { FaWhatsapp } from "react-icons/fa";
 
-import { CiLinkedin } from "react-icons/ci";
-import { BiPhoneCall } from "react-icons/bi";
 
 
 const Contact = () => {

@@ -7,10 +7,10 @@ import { useDispatch } from "react-redux";
 import { fetchPosts } from "../store/reducers/posts/postSlice";
 
 const Blogs = () => {
-  const __ = useDispatch();
+  const actions = useDispatch();
   useEffect(() => {
     console.log("Get all Posts");
-    __(fetchPosts());
+    actions(fetchPosts());
 
     //Unmounted => return function
     return () => {
